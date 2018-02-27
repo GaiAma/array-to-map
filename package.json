@@ -3,19 +3,27 @@
 	"version": "1.0.0",
 	"description": "Convert an array of objects to ES6 Map indexed by id or custom property",
 	"license": "MIT",
-	"repository": "GaiAma/arrayToMap",
+	"repository": "GaiAma/array-to-map",
 	"author": {
 		"name": "Can Rau",
 		"email": "cansrau@gmail.com"
 	},
+	"keywords": [
+		"conversion",
+		"utility",
+		"utility-function"
+	],
 	"engines": {
-		"node": ">=4"
+		"node": "8.9.4"
 	},
 	"scripts": {
 		"build": "babel src --out-dir .",
     "watch": "yarn build --watch",
 		"test": "xo src && ava"
   },
+	"publishConfig": {
+		"access": "public"
+	},
   "babel": {
     "presets": [ "@babel/preset-env" ],
     "plugins": [ "@babel/plugin-proposal-object-rest-spread" ]
