@@ -6,5 +6,5 @@ node_js:
 cache:
   yarn: true
 
-before_install:
+script:
   - yarn build
