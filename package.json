@@ -19,7 +19,7 @@
 	"scripts": {
 		"build": "babel src --out-dir .",
 		"watch": "yarn build --watch",
-		"test": "xo src && ava",
+		"test": "yarn build && xo src && ava",
 		"np": "np --no-yarn"
 	},
 	"publishConfig": {
