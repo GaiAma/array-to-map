@@ -8,3 +8,5 @@ cache:
 
 script:
   - yarn build
+
+after_success: npx codecov --file=./coverage/lcov.info
