@@ -1,10 +1,10 @@
-# array-to-map [![Build Status](https://travis-ci.org/GaiAma/array-to-map.svg?branch=master)](https://travis-ci.org/GaiAma/array-to-map)
+# array-to-map [![npm version](https://badge.fury.io/js/%40gaiama%2Farray-to-map.svg)](https://badge.fury.io/js/%40gaiama%2Farray-to-map) [![Build Status](https://travis-ci.org/GaiAma/array-to-map.svg?branch=master)](https://travis-ci.org/GaiAma/array-to-map)
 
 
 ## Install
 
 ```
-$ npm install array-to-map
+$ npm install @gaiama/array-to-map
 ```
 
 
