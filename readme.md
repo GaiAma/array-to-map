@@ -4,6 +4,8 @@
 ## Install
 
 ```
+$ yarn add @gaiama/array-to-map
+or
 $ npm install @gaiama/array-to-map
 ```
 
@@ -43,7 +45,7 @@ Array of objects
 Type: `string`<br>
 Default: `id`
 
-If your objects don't contain an id property or you want to map them to a different property specify as second argument
+If your objects don't contain an id property or you want to map them to a different key specify as second argument
 
 
 ## License
