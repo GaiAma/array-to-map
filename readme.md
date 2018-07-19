@@ -27,7 +27,7 @@ const array = [
   { slug: 'the-second-item', title: 'The second item' },
 ]
 arrayToMap(array, 'slug');
-//=> { 'the-first-item': { id: 'first', title: 'The first item' }, 'the-second-item': { id: 'second', title: 'The second item' } }
+//=> { 'the-first-item': { slug: 'the-first-item', title: 'The first item' }, 'the-second-item': { slug: 'the-second-item', title: 'The second item' } }
 ```
 
 
