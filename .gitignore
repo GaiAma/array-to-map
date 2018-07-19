@@ -1,3 +1,5 @@
 /*.js
 node_modules
 yarn.lock
+.nyc_output
+coverage
