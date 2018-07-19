@@ -1,6 +1,6 @@
 {
 	"name": "@gaiama/array-to-map",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "Convert an array of objects to ES6 Map indexed by id or custom property",
 	"license": "MIT",
 	"repository": "GaiAma/array-to-map",
@@ -25,7 +25,7 @@
 		"test": "xo src && ava",
 		"np": "np --no-yarn",
 		"contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+		"contributors:generate": "all-contributors generate"
 	},
 	"publishConfig": {
 		"access": "public"
