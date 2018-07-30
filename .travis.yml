@@ -8,7 +8,7 @@ cache:
 script:
   - yarn build
 
-after_success: yarn coverage --file=./coverage/lcov.info
+after_success: yarn coverage --file=./coverage/lcov.info && ls -lah
 
 notifications:
   email:
