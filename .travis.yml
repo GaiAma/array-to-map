@@ -1,7 +1,6 @@
 language: node_js
 node_js:
-  - '8'
-  - '6'
+  - 'lts/*'
 
 cache:
   yarn: true
@@ -9,4 +8,9 @@ cache:
 script:
   - yarn build
 
-after_success: npx codecov --file=./coverage/lcov.info
+after_success: yarn coverage --file=./coverage/lcov.info
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always

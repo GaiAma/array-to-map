@@ -22,7 +22,8 @@
 	"scripts": {
 		"build": "babel src --out-dir dist",
 		"watch": "yarn build --watch",
-		"test": "xo src && nyc ava",
+		"test": "xo src && ava",
+		"coverage": "nyc yarn test && nyc report --reporter=text-lcov > coverage.lcov && codecov",
 		"np": "np --no-yarn",
 		"contributors:add": "all-contributors add",
 		"contributors:generate": "all-contributors generate"
