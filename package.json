@@ -20,9 +20,9 @@
 		"node": "8.9.4"
 	},
 	"scripts": {
-		"build": "babel src --out-dir .",
+		"build": "babel src --out-dir dist",
 		"watch": "yarn build --watch",
-		"test": "xo src && ava",
+		"test": "xo src && nyc ava",
 		"np": "np --no-yarn",
 		"contributors:add": "all-contributors add",
 		"contributors:generate": "all-contributors generate"

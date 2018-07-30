@@ -1,5 +1,5 @@
 import test from 'ava';
-import m from '.';
+import m from './dist';
 
 test('equals map using defaults', t => {
 	const array = [
