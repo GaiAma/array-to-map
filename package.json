@@ -24,6 +24,7 @@
 		"watch": "yarn build --watch",
 		"test": "xo src && ava",
 		"coverage": "nyc yarn test && nyc report --reporter=text-lcov > coverage.lcov && codecov",
+		"codecov": "yarn coverage",
 		"np": "np --no-yarn",
 		"contributors:add": "all-contributors add",
 		"contributors:generate": "all-contributors generate"
