@@ -1,5 +1,4 @@
-# array-to-map [![npm version](https://badge.fury.io/js/%40gaiama%2Farray-to-map.svg)](https://badge.fury.io/js/%40gaiama%2Farray-to-map) [![Build Status](https://travis-ci.org/GaiAma/array-to-map.svg?branch=master)](https://travis-ci.org/GaiAma/array-to-map)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+# array-to-map [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors) [![npm version](https://badge.fury.io/js/%40gaiama%2Farray-to-map.svg)](https://badge.fury.io/js/%40gaiama%2Farray-to-map) [![Build Status](https://travis-ci.org/GaiAma/array-to-map.svg?branch=master)](https://travis-ci.org/GaiAma/array-to-map)
 
 
 ## Install
